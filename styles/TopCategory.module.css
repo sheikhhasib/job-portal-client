@@ -1,0 +1,18 @@
+.singleCategory:hover{
+    background-color:rgb(219, 202, 189);
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: rgb(255, 115, 0);
+}
+.singleCategory{
+    border-bottom: 1px solid rgb(219, 202, 189);
+    margin:5px;
+    padding: 10px 0px;
+}
+.singleCategory:hover .RightArrowCategory{
+    display: block;
+}
+.RightArrowCategory{
+    display:none;
+    color: rgb(255, 115, 0);
+}
